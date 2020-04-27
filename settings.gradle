@@ -1,0 +1,2 @@
+include ':app', ':uni-app-plugin-hikvision-isc'
+rootProject.name='uni-app-plugin-android-hikvision-isc'

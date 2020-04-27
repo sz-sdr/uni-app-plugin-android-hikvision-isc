@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uniapp.plugin.hikvisionisc.widget.SquareFramLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hk_video_main_item_sfl_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2D343A">
+
+        <TextureView
+            android:id="@+id/hk_video_main_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/hk_video_main_item_iv_add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/hk_ic_add_black_2_24dp"
+            android:layout_gravity="center"
+            android:tint="#cccccc" />
+
+    </FrameLayout>
+</com.uniapp.plugin.hikvisionisc.widget.SquareFramLayout>
